@@ -1,0 +1,6 @@
+framework module Pods_HDWalletSDK {
+  umbrella header "Pods-HDWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
