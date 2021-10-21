@@ -18,11 +18,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  #s.source_files = 'HDWalletSDK','HDWalletSDK/HDWalletSDK/**/*'
-  # s.exclude_files = "HDWalletSDK/**/*.h"
+  # s.source_files = 'HDWalletSDK','HDWalletSDK/**/*'
 
 
+  s.exclude_files = "HDWalletSDK/**/*.h"
   s.source_files = 'HDWalletSDK','HDWalletSDK/**/*.{swift}'
+  #s.source_files  = "HDWalletSDK", "HDWalletSDK/**/*.{h,m}"
 
   s.swift_version= '5'
 
