@@ -106,7 +106,7 @@ public class KeystoreV3: KeystoreInterface {
         var dataForMAC = Data()
         dataForMAC.append(last16bytes)
         dataForMAC.append(encryptedKeyData)
-        let mac = dataForMAC.sha3(.keccak256)
+        let mac :Data = dataForMAC.sha3(.keccak256) as Data
         
         let kdfparams = KeystoreParamsV3.CryptoParamsV3.KdfParamsV3(salt: saltData.toHexString(), dklen: dkLen, n: N, p: P, r: R)
         let cipherparams = KeystoreParamsV3.CryptoParamsV3.CipherParamsV3(iv: IV.toHexString())
