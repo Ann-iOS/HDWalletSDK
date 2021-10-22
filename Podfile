@@ -6,6 +6,6 @@ target 'HDWalletSDK' do
 
   # Pods for HDWalletSDK
   pod 'secp256k1.swift', '~> 0.1.4'
-  pod 'CryptoSwift'
+  pod 'CryptoSwift', '~> 1.4.2'
 
 end

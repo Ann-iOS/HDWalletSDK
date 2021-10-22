@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   s.module_name   = "HDWalletSDK"
 
   s.dependency "secp256k1.swift", '~> 0.1.4'
-  s.dependency 'CryptoSwift', '~> 1.0.0'
+  s.dependency 'CryptoSwift', '~> 1.4.2'
 
 end
