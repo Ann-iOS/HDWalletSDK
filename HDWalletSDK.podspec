@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDWalletSDK'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'HDWalletKit 因 pod 引入时, Keystore 文件错误后的修改'
 
   #s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Ann-iOS/HDWalletSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   # s.source_files = 'HDWalletSDK','HDWalletSDK/**/*'
 
